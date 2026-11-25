@@ -1,6 +1,6 @@
 name: signals_kit
-description: State building blocks for a signals + Firestore app, shared by the apps.
-version: 0.1.0
+description: State building blocks for a signals + Firestore Flutter app.
+version: 0.1.1
 publish_to: none
 
 environment:

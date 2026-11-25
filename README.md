@@ -1,7 +1,7 @@
 # signals_kit
 
-State building blocks for a signals + Firestore app, shared by the apps and
-the sibling app so a fix lands once.
+State building blocks for a signals + Firestore app, kept in one place so a
+fix lands once.
 
 - `LoadPhase` (`lib/src/load_phase.dart`): loading / error / missing / ready for a document-backed state.
 - `ActionPhase`, `PendingActions<K>` (`action_phase.dart`): an action that waits for the backend, once per key.
@@ -18,7 +18,7 @@ dependencies:
   signals_kit:
     git:
       url: https://github.com/<owner>/signals_kit.git
-      ref: v0.1.0
+      ref: v0.1.1
 ```
 
 A fix here reaches an app when that app raises `ref`.
