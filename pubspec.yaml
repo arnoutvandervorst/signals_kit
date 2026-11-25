@@ -1,0 +1,21 @@
+name: signals_kit
+description: State building blocks for a signals + Firestore app, shared by the apps.
+version: 0.1.0
+publish_to: none
+
+environment:
+  sdk: ">=3.13.0 <4.0.0"
+  flutter: ">=3.35.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  cloud_firestore: ^7.1.0
+  firebase_core: ^5.1.0
+  signals_flutter: ^7.0.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^6.0.0
+  fake_async: ^1.3.0
